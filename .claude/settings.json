@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(curl *api.hevyapp.com/v1/routines/20ef3d3b-8e43-4f67-a637-885e39b29d7a*)"
+      "Bash(curl *api.hevyapp.com/v1/routines/20ef3d3b-8e43-4f67-a637-885e39b29d7a*)",
+      "Bash(curl * -X PUT * https://api.hevyapp.com/v1/routines/20ef3d3b-8e43-4f67-a637-885e39b29d7a)",
+      "Bash(cat > /tmp/routine_today.json *)"
     ]
   }
 }
